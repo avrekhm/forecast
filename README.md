@@ -7,7 +7,7 @@ go build main.go
 ./main
 ```
 
-Test the server with by varying the latitude and longitude parameters, e.g.
+Test the server with curl by varying the latitude and longitude parameters, e.g.
 
 ```
 curl 'http://localhost:8080/forecast/44.3864,-73.5163'
