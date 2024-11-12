@@ -4,8 +4,9 @@ import (
 	"context"
 	"log"
 	"net/http"
-	"weather/internal/handlers"
-	"weather/internal/nws"
+
+	"github.com/avrekhm/forecast/internal/handlers"
+	"github.com/avrekhm/forecast/internal/nws"
 
 	"github.com/gorilla/mux"
 )

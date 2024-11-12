@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"weather/internal/nws"
 
+	"github.com/avrekhm/forecast/internal/nws"
 	"github.com/gorilla/mux"
 )
 
